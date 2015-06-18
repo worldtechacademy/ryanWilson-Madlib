@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href='style.css' type="text/css">
+  <title>Mad Lib Generator</title>
+</head>
+<body>
+	<h1>Mad Lib Generator</h1>
+	<div class="wrapper">
+		<div id="intro-text">
+			<p>Fill out the form below with nouns, adjectives, adverbs and verbs. Then, select a story layout and hit generate! <br>(separate values by using commas)</p>
+		</div>
+		<div id="user-input-words">
+			<p>Nouns: <input id="nouns" type="text" name="user-input-words"></p>
+			<p>Adjectives: <input id="adjectives" type="text" name="user-input-words"></p>
+			<p>Adverbs: <input id="adverbs" type="text" name="user-input-words"></p>
+			<p>Verbs: <input id="verbs" type="text" name="user-input-words"></p>
+		</div>
+		<div class="select-text">
+			<p>Please select a story from the list below:</p>
+			<input type="radio" name="select-lib" value="Christmas"> Christmas<br>
+			<input type="radio" name="select-lib" value="Shopping"> Shopping <br>
+			<input type="radio" name="select-lib" value="Brainstorm"> Brainstorm <br>
+			<button class="generate-lib" onClick="generateMadLib()">Generate Mad Lib!</button>
+		</div>
+		<div id="story">
+
+		</div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>

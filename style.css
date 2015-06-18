@@ -1,0 +1,42 @@
+html {
+	font-family: 'Bangers', cursive;
+	color: #fff;
+
+}
+body {
+	background: #228b22;
+}
+h1 {
+	font-family: 'Bangers', cursive;
+	text-align: center;
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#intro-text {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+}
+#user-input-words {
+	width: 20%;
+	margin: 0 auto;
+	text-align: left;
+}
+#user-input-words input {
+	width: 100%;
+}
+.select-text {
+	text-align: left;
+	width: 20%;
+	margin: 0 auto;
+}
+
+.generate-lib {
+	margin:25px 0;
+}
